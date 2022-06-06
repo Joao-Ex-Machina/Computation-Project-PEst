@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{textgreek}
+\usepackage{yfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{systeme}
+\usepackage{minted}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+\let\empty\varnothing
+\let\eqv\Longleftrightarrow
+\usepackage{longtable}
+\graphicspath{./images}
+\pagestyle{fancy}
+\date{Março 2022}
+\title{ \\ \large {Initial Report}}
+\author{João Barreiros C. Rodrigues}
+
+\begin{document}
+        \pagenumbering{gobble}
+        \begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+        \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for horizontal lines, change thickness here
+        \center % Centre everything on the page
+        \textsc{\LARGE Instituto Superior Técnico}\\[1.5cm] % Main heading such as the name of your university/college
+        \textsc{\Large Probabilidades e Estatística}\\[0.25cm]
+        \HRule\\[0.4cm]
+        {\LARGE\bfseries Projecto Computacional}\\[0.4cm] % Title of your document
+        {\huge\bfseries Pergunta}\\[0.4cm] % Title of your document
+        \HRule\\[1.5cm]\
+        João \textsc{Barreiros C. Rodrigues},nº 99968 , LEEC-IST\\
+        \vfill\vfill\vfill % Position the date 3/4 down the remaining page
+        {\large 4º trimestre 2022} % Date, change the \today to a set date if you want to be precise
+        \vfill % Push the date up 1/4 of the remaining page
+\end{titlepage}
+        \pagenumbering{arabic}
+        \newpage
+        \tableofcontents
+        \clearpage
+	\section{Código}
+	\inputminted{r}{Module.R}
+	\section{Outputs}
+	\section{Comentários Adicionais}
+
+\end{document}
+
+
+
+
+
+
+
