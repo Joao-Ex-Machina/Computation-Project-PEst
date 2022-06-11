@@ -1,5 +1,5 @@
 #install required libraries, I've been using the Netherlands CRAN mirror,
-install.packages("rJava")
+#install.packages("rJava")
 install.packages("libjvm")
 install.packages("ggplot2")
 install.packages("xlsxjars")
@@ -20,6 +20,7 @@ names(data1)[1] <- "Anos"
 filtereddata <- subset(data1, Anos>2001 & Anos<2020 | Anos=="") #filter dataframe in order to only have the required years
 filtereddata = subset(filtereddata, select = -c(Total))
 print(filtereddata)
+
 #plotdata <- gather(filtereddata,Ano,ResiduosPerCapita, 2:3) #convert make the year (2004 or 2008) a new variable stored in the Ano colummn, transfer contents of old 2004 and 2008 colummns into a new variable stored in ResiduosPerCapita, making it easier to plot without using fill 
 
 #Start the graph plotting sequence
