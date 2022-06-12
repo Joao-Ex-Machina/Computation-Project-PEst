@@ -1,7 +1,7 @@
-  \documentclass[a4paper,9pt]{extarticle}
+  \documentclass[a4paper,8pt]{extarticle}
   \usepackage{graphicx}
   \usepackage{extsizes}
-  \usepackage[a4paper, total={6in, 9in}]{geometry}
+  \usepackage[a4paper, total={7in, 12.5in}]{geometry}
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{graphicx}
@@ -62,22 +62,25 @@
   {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
   {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1 {¡}{{!`}}1 {²}{$^2$}1}
 
-\title{\vspace{-3cm} \large {\bfseries{Questão 4}}}
+\title{ \large {\bfseries{Questão 10}}}
 \author{João Barreiros C. Rodrigues}
 \date{Junho 2022}
 \begin{document}
 	\maketitle
 	\vspace{-1cm}
+	\section{Parâmetros}
+		seed=341, m=800, $\lambda$=5.54, $\lambda _c$=0.51, $\epsilon$=0.15, (1-$\alpha$)=0.999
 	\section{Código}
-		\lstinputlisting[style=customr]{module4.R}
+		\lstinputlisting[style=customr]{module10.R}
 	\section{Outputs Gráficos}
 		\begin{figure}[H]
                                 \centering
                                 \captionsetup{justification=centering}
-                                \includegraphics[scale=0.35\textscale]{module4.png}
-                                \caption{Gráfico de dispersão entre as variáveis TAD e IMC, associadas a 76 utentes de um serviço de saúde \textit{undisclosed}}
+                                \includegraphics[scale=0.2\textscale]{module10.png}
+                                \caption{Amplitude do intervalo de confiança em função da dimensão da amosta (n)}
         	\end{figure}
 	\section{Comentários}
-	Através da análise da \textit{trendline} do gráfico verifica-se uma relação aproximadamente linear entre a Tensão Arterial Diastólica e o Índice de Massa Corporal, amostrados do centro de saúde. O presente estudo está de acordo com a teoria médica estipulada.\footnote{\href{https://bdigital.ufp.pt/bitstream/10284/1584/2/MONO_13290.pdf}{Relação do Índice de Massa Corporal com o Colesterol total e Tensão Arterial - Universidade Fernando Pessoa}}
+		 À semelhança do exercício anterior verifica-se uma relação aproximadamente inversamente proporcional entre a dimensão da amostra n e a amplitude do intervalo de confiança em ambas as amostras. \newline
+		 Deve salientar-se que embora a amostra contaminada obedeça à relação anteriormente estipulada, em comparação para igual n, a amostra contaminada tem sempre menor média dos intervalos de confiança. Tal pode ser justificado teoricamente por $\lambda$ > $\lambda _{c}$ 
 		
 \end{document}

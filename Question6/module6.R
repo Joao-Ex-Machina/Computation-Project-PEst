@@ -33,7 +33,7 @@ gen.observations<-function(n, sz, lbound, ubound){
 	plot <- ggplot(meanX)
 	plot <- plot + geom_histogram(aes(x=mean0 ,y=..density..),colour=1, fill=filler, bins=20)
 	plot <- plot + stat_function(fun=dnorm, args=list(mean=expected.value,sd=sqrt(variance.n))) #create a normal distribution curve with expected value and sqrt(variance/n) parameters in order to compare with the generated uniform distributions
-	plot <- plot + ggtitle("Frequência relativa associado aos valores obtidos da média da distribuição com",bquote(list(n==.(n)))) + ylab("Densidada da distribuição") + xlab("Média da Distribuição Uniforme") #add title and rename y axis
+	plot <- plot + ggtitle("Frequência relativa associado aos valores obtidos da média da distribuição com",bquote(list(n==.(n)))) + ylab("Densidade da distribuição") + xlab("Média da Distribuição Uniforme") #add title and rename y axis
 	return(plot)
 }
 

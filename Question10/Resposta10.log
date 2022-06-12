@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.4.30)  12 JUN 2022 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.4.30)  12 JUN 2022 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Resposta4.tex
-(./Resposta4.tex
+**Resposta10.tex
+(./Resposta10.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10>
 (/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
 (/usr/share/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
@@ -63,8 +63,8 @@ Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
 Package ExtSizes Warning: It is better to use one of the extsizes classes,
  if you can.
 
-(/usr/share/texmf-dist/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ))
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -87,8 +87,13 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks17
-)
-(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+
+
+Package geometry Warning: `tmargin' and `bmargin' result in NEGATIVE (-58.32816
+pt).
+    `height' should be shortened in length.
+
+) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
@@ -1067,8 +1072,8 @@ File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
 \l__pdf_internal_box=\box73
 )
-(./Resposta4.aux)
-\openout1 = `Resposta4.aux'.
+(./Resposta10.aux)
+\openout1 = `Resposta10.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
@@ -1130,15 +1135,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
-* v-part:(T,H,B)=(77.84674pt, 650.43pt, 116.77011pt)
+* h-part:(L,W,R)=(45.80893pt, 505.89pt, 45.80894pt)
+* v-part:(T,H,B)=(-23.33124pt, 903.375pt, -34.99692pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=433.62pt
-* \textheight=650.43pt
-* \oddsidemargin=9.67395pt
-* \evensidemargin=9.67395pt
-* \topmargin=-31.42325pt
+* \textwidth=505.89pt
+* \textheight=903.375pt
+* \oddsidemargin=-26.46106pt
+* \evensidemargin=-26.46106pt
+* \topmargin=-132.60123pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=9.0pt
@@ -1146,7 +1151,7 @@ e
 * \marginparwidth=65.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1181,9 +1186,9 @@ LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
 LaTeX Info: Redefining \nameref on input line 68.
 
-(./Resposta4.out) (./Resposta4.out)
+(./Resposta10.out) (./Resposta10.out)
 \@outlinefile=\write4
-\openout4 = `Resposta4.out'.
+\openout4 = `Resposta10.out'.
 
 \c@lstlisting=\count336
 LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
@@ -1208,44 +1213,22 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 72.
+nput line 74.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
-2.
+4.
 
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) (./module4.R
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <7> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 10.
-
-! Missing { inserted.
-<to be read again> 
-                   \lst@hss 
-l.25 ... + xlab("Índice de Massa Corporal/ kg/m²
-                                                  ") #add title and rename y...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.25 ... + xlab("Índice de Massa Corporal/ kg/m²
-                                                  ") #add title and rename y...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+) (./module10.R
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <6> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 3.
 )
-<module4.png, id=19, 700.7781pt x 555.7563pt>
+<module10.png, id=23, 1011.78pt x 555.7563pt>
 
 ! Undefined control sequence.
-\Gin@scalex ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scalex ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1254,9 +1237,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scalex ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scalex ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1264,25 +1247,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: module4.png Graphic file (type png)
-<use module4.png>
-Package pdftex.def Info: module4.png  used on input line 77.
-(pdftex.def)             Requested size: 245.27602pt x 194.51761pt.
+File: module10.png Graphic file (type png)
+<use module10.png>
+Package pdftex.def Info: module10.png  used on input line 79.
+(pdftex.def)             Requested size: 202.35242pt x 111.14929pt.
 ! Undefined control sequence.
-\Gin@scalex ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\Gin@scaley ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scalex ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1291,9 +1263,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scaley ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scaley ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1302,9 +1274,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scaley ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scaley ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1313,9 +1285,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scaley ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scaley ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1324,9 +1296,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scalex ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scaley ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1335,9 +1307,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scalex ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scalex ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1346,9 +1318,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scalex ->0.35\textscale 
-                             
-l.77 ...raphics[scale=0.35\textscale]{module4.png}
+\Gin@scalex ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Gin@scalex ->0.2\textscale 
+                            
+l.79 ...raphics[scale=0.2\textscale]{module10.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1358,33 +1341,31 @@ and I'll forget about whatever was undefined.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./module4.png (PNG copy)>]
- (./Resposta4.aux)
-Package rerunfilecheck Info: File `Resposta4.out' has not changed.
-(rerunfilecheck)             Checksum: 60E73047859D8D115470461D5B87D9DC;306.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./module10.png (PNG copy)>
+] (./Resposta10.aux)
+Package rerunfilecheck Info: File `Resposta10.out' has not changed.
+(rerunfilecheck)             Checksum: 103606BD1A2DB9F7251E3870FF01A4C9;402.
  ) 
 Here is how much of TeX's memory you used:
- 27219 strings out of 478238
- 485275 string characters out of 5850456
- 1204535 words of memory out of 5000000
- 44972 multiletter control sequences out of 15000+600000
- 482294 words of font info for 60 fonts, out of 8000000 for 9000
+ 27272 strings out of 478238
+ 486006 string characters out of 5850456
+ 1451804 words of memory out of 5000000
+ 44997 multiletter control sequences out of 15000+600000
+ 480071 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,89p,502b,2081s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,7n,89p,465b,2074s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/
-type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfit0800
-.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fo
-nts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm
-1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/
-share/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on ./Resposta4.pdf (1 page, 355665 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx109
+5.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfit0800.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sftt0800.pfb>
+Output written on ./Resposta10.pdf (1 page, 394438 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 42 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

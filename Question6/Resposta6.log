@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.4.30)  9 JUN 2022 09:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.4.30)  12 JUN 2022 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -87,13 +87,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks17
-
-
-Package geometry Warning: `tmargin' and `bmargin' result in NEGATIVE (-58.32816
-pt).
-    `height' should be shortened in length.
-
-) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
@@ -1136,14 +1131,14 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(45.80893pt, 505.89pt, 45.80894pt)
-* v-part:(T,H,B)=(-23.33124pt, 903.375pt, -34.99692pt)
+* v-part:(T,H,B)=(48.93872pt, 722.7pt, 73.40813pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=505.89pt
-* \textheight=903.375pt
+* \textheight=722.7pt
 * \oddsidemargin=-26.46106pt
 * \evensidemargin=-26.46106pt
-* \topmargin=-132.60123pt
+* \topmargin=-60.33127pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=9.0pt
@@ -1226,9 +1221,9 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <6> not available
 <module6.png, id=19, 1517.67pt x 505.89pt>
 
 ! Undefined control sequence.
-\Gin@scalex ->0.25\textscale 
+\Gin@scalex ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1237,9 +1232,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scalex ->0.25\textscale 
+\Gin@scalex ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1250,11 +1245,11 @@ and I'll forget about whatever was undefined.
 File: module6.png Graphic file (type png)
 <use module6.png>
 Package pdftex.def Info: module6.png  used on input line 77.
-(pdftex.def)             Requested size: 379.41656pt x 126.47218pt.
+(pdftex.def)             Requested size: 303.52863pt x 101.1762pt.
 ! Undefined control sequence.
-\Gin@scalex ->0.25\textscale 
+\Gin@scalex ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1263,9 +1258,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scaley ->0.25\textscale 
+\Gin@scaley ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1274,9 +1269,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scaley ->0.25\textscale 
+\Gin@scaley ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1285,9 +1280,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scaley ->0.25\textscale 
+\Gin@scaley ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1296,9 +1291,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scaley ->0.25\textscale 
+\Gin@scaley ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1307,9 +1302,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scalex ->0.25\textscale 
+\Gin@scalex ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1318,9 +1313,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scalex ->0.25\textscale 
+\Gin@scalex ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1329,9 +1324,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\Gin@scalex ->0.25\textscale 
+\Gin@scalex ->0.20\textscale 
                              
-l.77 ...raphics[scale=0.25\textscale]{module6.png}
+l.77 ...raphics[scale=0.20\textscale]{module6.png}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1347,23 +1342,27 @@ Package rerunfilecheck Info: File `Resposta6.out' has not changed.
 (rerunfilecheck)             Checksum: 60E73047859D8D115470461D5B87D9DC;306.
  ) 
 Here is how much of TeX's memory you used:
- 27238 strings out of 478238
- 485578 string characters out of 5850456
- 1411559 words of memory out of 5000000
- 44974 multiletter control sequences out of 15000+600000
- 477270 words of font info for 46 fonts, out of 8000000 for 9000
+ 27260 strings out of 478238
+ 485800 string characters out of 5850456
+ 1413540 words of memory out of 5000000
+ 44987 multiletter control sequences out of 15000+600000
+ 481523 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,89p,464b,2083s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,8n,89p,464b,2083s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts
-/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/c
-m-super/sfit0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm080
-0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on ./Resposta6.pdf (1 page, 439748 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx109
+5.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfit0800.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfr
+m1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr
+/share/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on ./Resposta6.pdf (1 page, 518426 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 64 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 

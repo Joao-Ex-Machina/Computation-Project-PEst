@@ -1,7 +1,7 @@
-  \documentclass[a4paper,9pt]{extarticle}
+  \documentclass[a4paper,8pt]{extarticle}
   \usepackage{graphicx}
   \usepackage{extsizes}
-  \usepackage[a4paper, total={6in, 9in}]{geometry}
+  \usepackage[a4paper, total={6in, 10in}]{geometry}
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{graphicx}
@@ -62,22 +62,21 @@
   {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
   {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1 {¡}{{!`}}1 {²}{$^2$}1}
 
-\title{\vspace{-3cm} \large {\bfseries{Questão 4}}}
+\title{\vspace{-2.5cm} \large {\bfseries{Questão 3}}}
 \author{João Barreiros C. Rodrigues}
 \date{Junho 2022}
 \begin{document}
 	\maketitle
 	\vspace{-1cm}
 	\section{Código}
-		\lstinputlisting[style=customr]{module4.R}
+		\lstinputlisting[style=customr]{module3.R}
 	\section{Outputs Gráficos}
 		\begin{figure}[H]
                                 \centering
                                 \captionsetup{justification=centering}
-                                \includegraphics[scale=0.35\textscale]{module4.png}
-                                \caption{Gráfico de dispersão entre as variáveis TAD e IMC, associadas a 76 utentes de um serviço de saúde \textit{undisclosed}}
+                                \includegraphics[scale=0.4\textscale]{module3.png}
+                                \caption{Frequência do valor detectado em função do nível de Ozono presente na atmosfera, com ditinção entre as regiões de Estarreja e Mem-Martins}
         	\end{figure}
 	\section{Comentários}
-	Através da análise da \textit{trendline} do gráfico verifica-se uma relação aproximadamente linear entre a Tensão Arterial Diastólica e o Índice de Massa Corporal, amostrados do centro de saúde. O presente estudo está de acordo com a teoria médica estipulada.\footnote{\href{https://bdigital.ufp.pt/bitstream/10284/1584/2/MONO_13290.pdf}{Relação do Índice de Massa Corporal com o Colesterol total e Tensão Arterial - Universidade Fernando Pessoa}}
-		
+		Da observação directa do gráfico produzido compreende-se que em comparação a Mem-Martins, Estarreja tem mais ocorrências de concentrações mais baixas e mais elevadas de ozono. Tal análise é facilmente correlada com a concentração fabril presente em Estarreja, uma das maiores em Portugal\footnote{\href{https://www.publico.pt/1999/05/26/jornal/a-poluicao-escondida-de-estarreja-134015}{A Poluição Escondida em Estarreja}}
 \end{document}
